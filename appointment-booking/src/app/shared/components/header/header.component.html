@@ -1,0 +1,8 @@
+
+<div class="header">
+    <a class="logo">Event Scheduler</a>
+    <div class="header-right">
+      <button (click)="scheduleEvent()" *ngIf="showCreateEventBtn" mat-raised-button color="primary">Schedule an event</button>
+      <button (click)="backToHome()" *ngIf="showHomeBtn" mat-raised-button color="primary">Home</button>
+    </div>
+  </div>
